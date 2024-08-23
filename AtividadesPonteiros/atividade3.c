@@ -2,9 +2,9 @@
 
 int main (){
 
-    float array[10];
+    float *array[10];
 
     for (int i = 0; i <10; i++){
-        printf("Posicoes: %f", &array[i]);
+        printf("\nPosicoes: %p", array[i]);
     }
 }
